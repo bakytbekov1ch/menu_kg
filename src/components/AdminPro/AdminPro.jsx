@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 
 import "./AdminPro.scss";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const API = "https://668f6b7480b313ba09180a62.mockapi.io/chuncurchakKg";
 
 function AdminPro() {
   const [item, setItem] = useState([]);
+  const navigate = useNavigate();
 
   async function handleClick() {
     try {
@@ -55,7 +56,12 @@ function AdminPro() {
                   >
                     Удалить
                   </button>
-                  <button className="btn button2">Оңдоо</button>
+                  <button
+                    onClick={() => navigate(`/main/${item.id}`)}
+                    className="btn button2"
+                  >
+                    Оңдоо
+                  </button>
                 </div>
                 <Link to="/basket">
                   <button className="box">Просмотрит</button>

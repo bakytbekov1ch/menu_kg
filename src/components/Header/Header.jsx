@@ -1,12 +1,10 @@
 import React from "react";
-
 import { IoSearch } from "react-icons/io5";
 import { RiAdminFill } from "react-icons/ri";
-
 import "./Header.scss";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({ block }) {
   return (
     <div className="header">
       <div className="container">
@@ -22,7 +20,7 @@ function Header() {
 
           <div className="header__btn">
             <div className="header__block">
-              <input type="text" placeholder="Search" />
+              <input onChange={block} type="text" placeholder="Search" />
               <IoSearch className="header__search" />
             </div>
             <Link to="/admin">

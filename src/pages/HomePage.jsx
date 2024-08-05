@@ -1,10 +1,10 @@
 import React from "react";
 import Home from "../components/Home/Home";
 
-function HomePage() {
+function HomePage({ block }) {
   return (
     <div>
-      <Home />
+      <Home search={block} />
     </div>
   );
 }

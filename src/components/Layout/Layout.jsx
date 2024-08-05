@@ -3,10 +3,10 @@ import Header from "../Header/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "../Footer/Footer";
 
-function Layout() {
+function Layout({ click }) {
   return (
     <div>
-      <Header />
+      <Header block={click} />
       <Outlet />
       <Footer />
     </div>

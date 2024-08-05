@@ -2,10 +2,10 @@ import React from "react";
 
 import Product from "../Product/Product";
 
-function Home() {
+function Home({ search }) {
   return (
     <div>
-      <Product />
+      <Product block={search} />
     </div>
   );
 }
