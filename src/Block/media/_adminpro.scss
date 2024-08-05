@@ -1,0 +1,91 @@
+@media (max-width: 1024px) {
+  .adminpro {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+
+      .adminpro__btn {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .adminpro {
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .adminpro {
+    .container {
+      max-width: 375px;
+      margin: 0 auto;
+
+      .adminpro__btn {
+        .adminpro__content {
+          width: 150px;
+          height: 280px;
+
+          img {
+            width: 100%;
+            height: 130px;
+          }
+
+          .adminpro__block {
+            h1 {
+              font-size: 15px;
+            }
+
+            h2 {
+              height: 10px;
+              font-size: 8px;
+            }
+
+            .adminpro__price {
+              h3 {
+                font-size: 12px;
+              }
+
+              h4 {
+                font-size: 12px;
+              }
+            }
+
+            .adminpro__buttons {
+              .btn {
+                height: 20px;
+              }
+
+              .button {
+                font-size: 12px;
+              }
+
+              .button2 {
+                font-size: 12px;
+              }
+            }
+
+            .box {
+              height: 20px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .adminpro {
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+}

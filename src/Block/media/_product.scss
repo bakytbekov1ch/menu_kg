@@ -1,0 +1,39 @@
+@media (max-width: 1025px) {
+  .product {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .product {
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .product {
+    .container {
+      max-width: 375px;
+      margin: 0 auto;
+
+      .product__content {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .product {
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+}

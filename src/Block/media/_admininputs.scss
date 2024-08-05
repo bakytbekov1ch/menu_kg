@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+  .adminin {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .adminin {
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .adminin {
+    .container {
+      max-width: 375px;
+      margin: 0 auto;
+
+      .adminin__inputs {
+        input {
+          height: 35px;
+        }
+
+        button {
+          height: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .adminin {
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+}

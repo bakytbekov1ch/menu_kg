@@ -1,0 +1,93 @@
+.adminpro {
+  .adminpro__btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .adminpro__content {
+      width: 250px;
+      height: 380px;
+
+      img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .adminpro__block {
+        h1 {
+          color: black;
+          font-size: 20px;
+          font-weight: 500;
+          font-family: "Roboto";
+        }
+
+        h2 {
+          height: 20px;
+          color: red;
+          font-size: 12px;
+          font-weight: 400;
+          font-family: "Roboto";
+        }
+
+        .adminpro__price {
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          h3 {
+            color: black;
+            font-size: 13px;
+            font-weight: 400;
+            font-family: "Roboto";
+          }
+
+          h4 {
+            color: red;
+            font-size: 13px;
+            font-weight: 400;
+            font-family: "Roboto";
+          }
+        }
+
+        .adminpro__buttons {
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 5px;
+
+          .btn {
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+
+          .button {
+            background: green;
+            color: white;
+            font-size: 16px;
+          }
+
+          .button2 {
+            background: blue;
+            color: white;
+            font-size: 16px;
+          }
+        }
+
+        .box {
+          width: 100%;
+          height: 30px;
+          border-radius: 5px;
+          background: rebeccapurple;
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
