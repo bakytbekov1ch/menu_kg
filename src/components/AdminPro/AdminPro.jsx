@@ -63,7 +63,7 @@ function AdminPro() {
                     Оңдоо
                   </button>
                 </div>
-                <Link to="/basket">
+                <Link to={`/basket/${item.id}`}>
                   <button className="box">Просмотрит</button>
                 </Link>
               </div>

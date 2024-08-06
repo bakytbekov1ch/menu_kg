@@ -1,0 +1,81 @@
+.register {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+
+  .register__content {
+    width: 320px;
+
+    h1 {
+      height: 50px;
+      color: black;
+      font-size: 30px;
+      font-weight: 500;
+      font-family: "Langar";
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .register__xl {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .register__block {
+        display: grid;
+        grid-gap: 5px;
+
+        label {
+          color: black;
+          font-size: 15px;
+          font-weight: 500;
+          font-family: "Roboto";
+        }
+
+        input {
+          width: 100%;
+          height: 30px;
+          border: 1px solid black;
+          outline: none;
+          border-radius: 5px;
+          padding-left: 10px;
+
+          font-size: 16px;
+          font-family: "Roboto";
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    .register__footer {
+      h2 {
+        height: 30px;
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto";
+
+        span {
+          color: blue;
+          text-decoration-line: underline;
+          cursor: pointer;
+        }
+      }
+
+      button {
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        background: green;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Roboto";
+        letter-spacing: 1px;
+        cursor: pointer;
+      }
+    }
+  }
+}

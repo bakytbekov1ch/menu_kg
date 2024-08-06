@@ -23,7 +23,7 @@ function Header({ block }) {
               <input onChange={block} type="text" placeholder="Search" />
               <IoSearch className="header__search" />
             </div>
-            <Link to="/admin">
+            <Link to="/register">
               <RiAdminFill className="header__menu" />
             </Link>
           </div>
