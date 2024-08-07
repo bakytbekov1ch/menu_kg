@@ -30,6 +30,7 @@ function App() {
 
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          {/* <h1>Hello My World</h1> */}
         </Route>
       </Routes>
     </div>
